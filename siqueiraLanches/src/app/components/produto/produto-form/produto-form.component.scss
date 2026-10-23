@@ -1,0 +1,53 @@
+.produto-form-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.produto-form-container h2 {
+  font-weight: bold;
+  color: #EA1D2C;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.form-control {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  background-color: #fff;
+}
+
+.btn {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background-color: #EA1D2C;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #c41623;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #565e64;
+}

@@ -1,0 +1,12 @@
+**/node_modules/
+**/target/
+**/dist/
+**/.angular/
+**/.env
+**/.env.*
+**/application-local.properties
+.vscode/
+.idea/
+*.log
+
+**/.github/workflows/

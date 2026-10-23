@@ -1,0 +1,84 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 0.9rem;
+  cursor: pointer;
+  width: auto;
+  max-width: 200px;
+  box-sizing: border-box;
+
+  border: none;
+  outline: none;
+}
+h2{ 
+  justify-content: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #EA1D2C;
+  font-size: 1.8rem;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background-color: #b02a37;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #b02a37; 
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #bb2d3b;
+}
+
+.btn-success {
+  background-color: #EA1D2C;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #c41623;
+}
+
+.novo-produto-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #EA1D2C;
+  border: none;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 20px;
+  color: white;
+  width: auto;
+  max-width: 200px;
+}
+
+.novo-produto-btn:hover {
+  background-color: #c41623;
+  transform: scale(1.05);
+}

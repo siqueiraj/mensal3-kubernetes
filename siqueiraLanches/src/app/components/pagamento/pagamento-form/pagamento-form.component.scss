@@ -1,0 +1,64 @@
+.pagamento-form-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 2rem auto;
+  transition: transform 0.3s ease;
+}
+
+.pagamento-form-container:hover {
+  transform: translateY(-5px);
+}
+
+.pagamento-form-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #555;
+}
+
+.form-control, .form-select {
+  border-radius: 8px;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #EA1D2C;
+  box-shadow: 0 0 0 3px rgba(234, 29, 44, 0.25);
+}
+
+.btn-finalizar {
+  background-color: #EA1D2C;
+  color: white;
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  letter-spacing: 0.5px;
+  border: none;
+}
+
+.btn-finalizar:hover {
+  background-color: #c41623;
+  transform: scale(1.05);
+}
+
+.alert-success {
+  padding: 1rem;
+  border-radius: 8px;
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 600;
+}

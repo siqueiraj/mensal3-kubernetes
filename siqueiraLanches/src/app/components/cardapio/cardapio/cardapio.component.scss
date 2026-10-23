@@ -1,0 +1,97 @@
+.cardapio-container {
+  padding: 40px;
+  background-color: #f8f9fa;
+  min-height: 80vh;
+}
+
+.cardapio-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #EA1D2C;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.produtos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.produto-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.produto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.produto-card h5.produto-nome {
+  font-size: 1.4rem;
+  color: #212529;
+  margin-bottom: 10px;
+}
+
+.produto-card .produto-descricao {
+  font-size: 0.95rem;
+  color: #6c757d;
+  margin-bottom: 15px;
+  min-height: 40px;
+}
+
+.produto-card .produto-preco {
+  font-size: 1.2rem;
+  color: #EA1D2C; 
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.produto-card .btn-adicionar,
+.produto-card .btn-avaliar {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
+}
+
+.produto-card .btn-adicionar {
+  background-color: #EA1D2C;
+  color: white;
+}
+
+.produto-card .btn-adicionar:hover {
+  background-color: #c41623;
+  transform: scale(1.05);
+}
+
+.produto-card .btn-avaliar {
+  background-color: #ffc107; 
+  color: #212529;
+}
+
+.produto-card .btn-avaliar:hover {
+  background-color: #e0a800;
+  transform: scale(1.05);
+}
+
+.alert-info {
+  text-align: center;
+  font-weight: bold;
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 20px;
+  border-radius: 10px;
+}
